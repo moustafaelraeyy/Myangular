@@ -1,0 +1,16 @@
+.list{
+    padding: 20px;
+}
+.list h4{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.list button{
+border: none;
+float: right;
+margin-top: 5px;
+
+}
