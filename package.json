@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~8.2.9",
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
+    "angular-animations": "0.0.10",
     "angular-font-awesome": "^3.1.2",
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",

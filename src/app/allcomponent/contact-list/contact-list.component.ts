@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import  {data} from 'contacts.json';
 
 @Component({
   selector: 'app-contact-list',
@@ -15,6 +16,8 @@ export class ContactListComponent implements OnInit {
   backtoform(){
     this.routnav.navigate(['/'])
 
+
   }
+  public datalist :{} [] = data;
 
 }

@@ -5,6 +5,7 @@
     display: inline-block;
     margin-top: 5px;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px
     
     
 }
@@ -12,5 +13,6 @@
 border: none;
 float: right;
 margin-top: 5px;
+
 
 }
