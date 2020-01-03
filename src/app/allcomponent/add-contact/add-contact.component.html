@@ -5,7 +5,7 @@
 
 
 
-        <form #fff="ngForm" (ngSubmit)="creat(fff)">
+        <form #fff="ngForm" (ngSubmit)="creat(fff)" >
 
             <input ngModel name="Firstname" #Fname="ngModel" type="text" class="form-control" placeholder="FirstName"
                 required>
@@ -29,7 +29,7 @@
 
 
 
-            <button [disabled]="fff.invalid" class="btn btn-success">Add Contact</button>
+            <button [disabled]="fff.invalid" class="btn btn-success"  >Add Contact</button>
             <br>
 
 

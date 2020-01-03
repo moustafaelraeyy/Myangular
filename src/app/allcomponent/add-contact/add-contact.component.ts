@@ -8,14 +8,17 @@ import { Router } from '@angular/router';
 })
 export class AddContactComponent implements OnInit {
 
-  constructor(private routnav: Router) { }
+  constructor(private routnav: Router ) { }
 
   ngOnInit() {
   }
+  
   creat(form) {
-    console.log(form.value)
+    console.log(form.value);
+
   }
   gotolist() {
+    
     this.routnav.navigate(['/contactlist'])
   }
 

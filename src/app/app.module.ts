@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AddContactComponent } from './allcomponent/add-contact/add-contact.component';
 import { ContactListComponent } from './allcomponent/contact-list/contact-list.component';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddContactComponent,
-    ContactListComponent
+    ContactListComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

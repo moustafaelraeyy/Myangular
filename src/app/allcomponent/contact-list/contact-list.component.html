@@ -1,14 +1,15 @@
 <section class="list">
     <div class="container">
-        <input type="search" ngModel name="search" #search="ngModel" placeholder="Search Contacts" class="form-control">
-
-        <h4 >Add New Contact</h4> 
-        <button class="btn btn-primary" (click)="backtoform()" >
+        <div class="style">
+            <input type="search" [(ngModel)]="searchText" placeholder=" Search Contacts" class="form-control ">
+        </div>
+        <h4>Add New Contact</h4>
+        <button class="btn btn-primary" (click)="backtoform()">
             <i class="fa fa-plus"></i>
             Add
-        </button >
-        
-        <ul *ngFor="let x of datalist" class="list-unstyled">
+        </button>
+
+        <ul *ngFor="let x of data | filter : searchText : 'firstName'" class="list-unstyled">
             <li>{{x.firstName}}</li>
             <li>{{x.email}}</li>
 

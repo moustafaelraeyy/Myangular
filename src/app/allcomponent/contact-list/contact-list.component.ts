@@ -9,6 +9,7 @@ import  {data} from 'contacts.json';
 })
 export class ContactListComponent implements OnInit {
 
+  data :{} [] = data;
   constructor(private routnav:Router ) { }
 
   ngOnInit() {
@@ -18,6 +19,6 @@ export class ContactListComponent implements OnInit {
 
 
   }
-  public datalist :{} [] = data;
+  
+  }
 
-}
